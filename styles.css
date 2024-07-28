@@ -1,0 +1,81 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #3d3c49;
+    display: flex;
+    
+    
+    padding-right: 20px;
+   
+    
+}
+
+.profile{
+    width: 100%;
+    height: 50%;
+    
+    display: flex;
+    justify-content: right;
+    align-items: end;
+    
+
+}
+
+.profile-image{
+    
+    height: 50%;
+}
+
+.header{
+    width: 100%;
+    height: 20%;
+    
+    flex-direction: row;
+    gap: 3rem;
+    padding-top: 15px;
+    justify-content: right;
+    display: flex;
+  
+
+    
+    
+   
+    
+}
+.header-links{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    
+
+}
+h1{
+    color: #EC407A ;
+}
+a{
+    font-size: 40px;
+    color: #EC407A ;
+   
+
+}
+.section1{
+
+    width: 50%;
+    
+}
+.section2{
+   
+    width: 50%;
+   
+    
+}
+
+
+/*
+color
+CE3B4F
+#48A9A6 blue
+403F4C grey
+#EC407A    
+color:rgb(126, 8, 77)
+38726C
