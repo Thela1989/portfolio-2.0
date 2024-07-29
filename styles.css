@@ -1,8 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
 body {
     width: 100vw;
     height: 100vh;
     background-color: #3d3c49;
     display: flex;
+    padding: 0;;
+    margin: 0;;
+    font-family: "Open Sans", sans-serif;
     
     
     padding-right: 20px;
@@ -11,23 +16,29 @@ body {
 }
 
 .profile{
-    width: 100%;
-    height: 50%;
-    
+    width:40%;
+    height: 100%;
     display: flex;
-    justify-content: right;
     align-items: end;
+    justify-content: center;
+  
+    
+
+
+   
     
 
 }
 
 .profile-image{
+    filter: drop-shadow(0 0 0.75rem #ffffff);
     
-    height: 50%;
+    height: 70%;
+    width: 100;
 }
 
 .header{
-    width: 100%;
+    width: 60%;
     height: 20%;
     
     flex-direction: row;
@@ -46,28 +57,61 @@ body {
     width: 100%;
     display: flex;
     justify-content: space-around;
+    filter: drop-shadow(0 0 0.75rem #EC407A);
+   
     
 
 }
+
+.hey-image, .hey-image2{
+    
+    width: 80px;
+    height: 80px;
+}
 h1{
-    color: #EC407A ;
+    color: #ffffff ;
 }
 a{
-    font-size: 40px;
+    font-size: 30px;
     color: #EC407A ;
+    text-decoration: none;
    
 
 }
 .section1{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 100px;
 
-    width: 50%;
+   
+    
+
+    width: 70%;
     
 }
 .section2{
-   
     width: 50%;
-   
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
     
+
+
+.me-text1{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    color: aliceblue;
+    
+}
+
+.text-name{
+    padding-left: 20px;
+    padding-top: 20px;
 }
 
 
