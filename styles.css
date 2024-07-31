@@ -42,6 +42,7 @@ body {
     flex-direction: row;
     gap: 3rem;
     padding-bottom: 350px;
+    padding-left: 200px;
    
     gap: 2rem;
     display: flex;
@@ -56,6 +57,7 @@ body {
 .header-links{
     width: 100%;
     gap: 2rem;
+    display: flex;
    
 
     filter: drop-shadow(0 0 0.75rem #EC407A);
@@ -79,7 +81,11 @@ body {
 }
 h1{
     color: #ffffff ;
+    font-size: 30px;
 }
+
+
+
 a{
     font-size: 30px;
     color: #EC407A ;
@@ -138,7 +144,7 @@ a{
 }
 
 .text-name{
-    font-size: 30px;
+    font-size: 40px;
     padding-left: 20px;
     padding-top: 20px;
 }
