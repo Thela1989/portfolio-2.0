@@ -24,14 +24,53 @@ body {
   color: #ffffff;
 }
 
-#box {
-  width: 700px;
+.box {
+  padding: 100px;
+  width: 1000px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#box-text {
+  width: 400px;
   height: 300px;
   display: flex;
-  padding: 20px;
-  align-items: center;
+  flex-direction: column;
+  padding-top: 20px;
+  align-items: start;
   justify-content: space-around;
-  background-color: rgb(0, 0, 0);
+}
+
+.vl {
+  border-left: 3px solid #ec407a;
+  height: 210px;
+  margin-top: 60px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  left: 50%;
+  margin-left: -1px;
+  top: 1;
+}
+.skills {
+  width: 400px;
+  height: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.skills-icon {
+  width: 70px;
+
+  height: 40px;
+}
+
+.fact {
+  width: 300px;
 }
 
 #jump {
