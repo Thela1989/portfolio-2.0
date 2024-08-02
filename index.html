@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
+    <script src="script.js"></script>
     <div class="container">
       <header>
         <div class="icons">
@@ -27,17 +28,19 @@
           </h1>
         </div>
         <div class="btn">
-        <button class="btn-grey-3d">Contact me</button>
-        <button class="btn-grey-3d">My projects</button></div>
+          <button class="btn-grey-3d">Contact me</button>
+          <button class="btn-grey-3d">My projects</button>
+        </div>
       </section>
       <section class="section2">
         <div class="header">
-          <div class="header-links">
-            <a href="">Home</a>
+          <nav>
+            <a href="#section1">Home</a>
             <a href="#contain2">About</a>
-            <a href="">Project</a>
-            <a class="cv" href="">CV</a>
-          </div>
+            <a href="#section3">Contact </a>
+            <a href="#section3">Projects </a>
+            <a href="#section3">CV </a>
+          </nav>
         </div>
         <div class="profile">
           <img class="profile-image" src="WIN_20240726_19_25_03_Pro-removebg-preview.png" alt="Profile picture" />
@@ -50,11 +53,9 @@
     <div id="contain2" class="container2">
       <h1 class="about-me-header">About <span>me</span></h1>
       <p class="aboutme-text">
-        I am a creative and detail-oriented front end developer with a keen eye for design. With about one year of
-        experience in creating responsive and interactive web applications, I am proficient in technologies such as
-        HTML, CSS, and JavaScript. I am dedicated to writing clean, efficient, and scalable code, and I stay updated
-        with the latest trends and best practices in web development. My strength lies in transforming complex problems
-        into elegant and user-friendly solutions, providing end-users with a seamless and engaging experience.
+        I am a creative and detail-oriented front end developer with a keen eye for design. I stay updated with the
+        latest trends and best practices in web development. My strength lies in transforming complex problems into
+        elegant and user-friendly solutions.
       </p>
       <div id="box" class="box">
         <div id="box-text">
@@ -80,23 +81,28 @@
         </div>
         <div class="vl"></div>
         <div class="skills">
-          <img class="skills-icon" src="html.png" />
-          <img class="skills-icon" src="css (2).png" />
-          <img class="skills-icon" src="javascript.png" />
-        </div>
-        <div class=""></div>
-      </div>
-    </div>
+          <div class="skills-header"><h1>Skills</h1></div>
+          <div class="skills-second-header"><p>html5</p>css<p>JavaScript</p></div>
+          <div class="skills-icon">
+            <img id="skills-image" src="html-icon.png" alt="" />
+            <img id="skills-image" src="css (2).png" alt="" />
+            <img id="skills-image" src="javascript.png" alt="" />
+          </div>
 
-    <div id="container3">
-      <h1>ccc</h1>
-      <h1></h1>
-      <h1></h1>
-      <h1></h1>
-      <h1></h1>
-      <h1></h1>
-      <h1></h1>
-      <h1></h1>
+          <div class=""></div>
+        </div>
+      </div>
+
+      <div id="container3">
+        <h1>ccc</h1>
+        <h1></h1>
+        <h1></h1>
+        <h1></h1>
+        <h1></h1>
+        <h1></h1>
+        <h1></h1>
+        <h1></h1>
+      </div>
     </div>
   </body>
 </html>
