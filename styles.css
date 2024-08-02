@@ -7,7 +7,7 @@ body {
 
 header {
   display: flex;
-  justify-content: center;
+  align-items: flex-start;
 }
 .container {
   width: 100vw;
@@ -27,10 +27,19 @@ header {
   font-family: "Open Sans", sans-serif;
   flex-direction: column;
   color: #ffffff;
+  height: 980px;
+
+  padding-top: 10px;
+}
+#container3 {
+  border-top: 10px solid #ec407a;
 }
 
 .box {
-  padding: 100px;
+  padding-top: 60px;
+  padding-bottom: 100px;
+  padding-left: 150px;
+
   width: 1500px;
 
   display: flex;
@@ -61,7 +70,7 @@ header {
   top: 1;
 }
 .skills {
-  width: 700px;
+  width: 500px;
   height: 300px;
   display: flex;
   justify-content: space-around;
@@ -70,7 +79,7 @@ header {
 }
 
 .skills-icon {
-  width: 150px;
+  width: 100px;
 }
 
 .fact {
@@ -91,11 +100,6 @@ header {
   border-bottom: 10px solid #ec407a;
   display: flex;
   flex-direction: row;
-}
-
-.container2 {
-  border-bottom: 10px solid #ec407a;
-  padding-top: 10px;
 }
 
 .profile-image {
@@ -148,17 +152,18 @@ a {
   padding-left: 10px;
 }
 
-#random {
-  height: 800px;
+.random {
+  height: 150px;
   color: black;
 }
 
 .section1 {
   width: 100%;
+  padding-right:80px;
 
   flex-direction: row;
 
-  padding-left: 100px;
+;
 }
 .section2 {
   width: 100%;
@@ -172,7 +177,7 @@ a {
   display: flex;
   flex-direction: row;
   color: aliceblue;
-  justify-content: center;
+  
   align-items: center;
   padding-top: 300px;
 }
@@ -233,6 +238,46 @@ span {
   height: 50px;
 }
 
+.btn{
+  display: flex;
+  gap: 1rem;
+  justify-content: start;
+  padding-left: 30px;
+
+ 
+  
+}
+
+.btn-grey-3d {
+  
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  letter-spacing: 2px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: 
+#000;
+  cursor: pointer;
+  border: 3px solid;
+  padding: 0.25em 0.5em;
+  box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
+  position: relative;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.btn-grey-3d:active {
+  box-shadow: 0px 0px 0px 0px;
+  top: 5px;
+  left: 5px;
+}
+
+@media (min-width: 768px) {
+  .btn-grey-3d {
+    padding: 0.25em 0.75em;
+  }
+}
 /*
 color
 CE3B4F
