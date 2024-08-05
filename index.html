@@ -43,7 +43,7 @@
           </nav>
         </div>
         <div class="profile">
-          <img class="profile-image" src="WIN_20240726_19_25_03_Pro-removebg-preview.png" alt="Profile picture" />
+          <img class="profile-image" src="profile.image.png" alt="Profile picture" />
         </div>
         <div></div>
 
@@ -81,8 +81,12 @@
         </div>
         <div class="vl"></div>
         <div class="skills">
-          <div class="skills-header"><h1>Skills</h1></div>
-          <div class="skills-second-header"><p>html5</p>css<p>JavaScript</p></div>
+          <div class="skills-header"><h1 class="skills-h1">Skills</h1></div>
+          <div class="skills-second-header">
+            <p>html5</p>
+            <p>css</p>
+            <p>JavaScript</p>
+          </div>
           <div class="skills-icon">
             <img id="skills-image" src="html-icon.png" alt="" />
             <img id="skills-image" src="css (2).png" alt="" />
@@ -92,16 +96,23 @@
           <div class=""></div>
         </div>
       </div>
+    </div>
+    <div id="contain3" class="container3">
+      <div class="formBox">
+        <h1 class="contact-header">Contact me</h1>
+        <div class="form"></div>
+        <form id="contactForm">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required />
 
-      <div id="container3">
-        <h1>ccc</h1>
-        <h1></h1>
-        <h1></h1>
-        <h1></h1>
-        <h1></h1>
-        <h1></h1>
-        <h1></h1>
-        <h1></h1>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" rows="4" required></textarea>
+
+          <button type="submit">Send</button>
+        </form>
       </div>
     </div>
   </body>

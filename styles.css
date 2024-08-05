@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Play:wght@400;700&display=swap");
 body {
   background-color: #3d3c49;
   padding: 0;
@@ -51,11 +53,15 @@ header {
   font-family: "Open Sans", sans-serif;
   flex-direction: column;
   color: #ffffff;
+  border-bottom: 10px solid #ec407a;
 
   padding-top: 10px;
 }
-#container3 {
-  border-top: 10px solid #ec407a;
+#contain3 {
+  border-top: 0px solid #ec407a;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
 .box {
@@ -69,16 +75,18 @@ header {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  font-family: "Play", sans-serif;
 }
 
 #box-text {
-  width: 400px;
+  width: 300px;
   height: 300px;
   display: flex;
   flex-direction: column;
   padding-top: 20px;
   align-items: start;
   justify-content: flex-start;
+  padding-left: 60px;
 }
 
 .vl {
@@ -97,6 +105,10 @@ header {
   width: 500px;
   height: 400px;
 }
+.skills-header {
+  display: flex;
+  padding-left: 80px;
+}
 
 .skills-second-header {
   display: flex;
@@ -104,17 +116,28 @@ header {
   justify-content: space-between;
   width: 300px;
   padding-left: 20px;
+  font-size: 24px;
+  font-family: "Play", sans-serif;
 }
 
 #skills-image {
   width: 100px;
 }
 
-.skills-header {
-  display: flex;
-  width: 300px;
-  height: 100px;
-  justify-content: center;
+.skills-h1 {
+  width: 100px;
+  height: 50px;
+
+  font-family: "Open Sans", sans-serif;
+  font-size: 30px;
+  letter-spacing: 2px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #000;
+  background-color: #ffffff;
+  border: 3px solid;
+  padding: 0.25em 0.5em;
+  box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
 }
 
 .fact {
@@ -147,12 +170,13 @@ header {
 
   flex-direction: row;
   gap: 3rem;
-  padding-bottom: 350px;
+  padding-bottom: 390px;
   padding-right: 80px;
 
   gap: 2rem;
   display: flex;
   justify-content: flex-end;
+  align-items: end;
 }
 li a {
   text-decoration: none;
@@ -254,7 +278,8 @@ a {
   align-items: center;
   background-color: rgb(128, 136, 143);
   border-radius: 20px;
-  font-size: 20px;
+  font-size: 24px;
+  font-family: "Dosis", sans-serif;
 }
 
 span {
@@ -314,6 +339,7 @@ span {
     padding: 0.25em 0.75em;
   }
 }
+
 /*
 color
 CE3B4F
@@ -322,3 +348,24 @@ CE3B4F
 #EC407A    
 color:rgb(126, 8, 77)
 38726C*/
+/*contact*/
+.formBox {
+  width: 800px;
+  height: 500px;
+  display: flex;
+
+  margin: 100px;
+
+  background-color: #ffffff;
+  color: #000;
+  border-radius: 20px;
+}
+
+#contactForm {
+  width: 400px;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
