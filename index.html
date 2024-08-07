@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <title>Document</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
@@ -10,12 +11,14 @@
     <script src="script.js"></script>
     <div id="contain1" class="container">
       <header>
+        <i class="fa-solid fa-mobile-screen"></i>
         <div class="icons">
           <img class="icon1" src="github.svg" />
           <img class="icon2" src="twitter.svg" />
           <img class="icon3" src="linkedin.svg" />
         </div>
       </header>
+
       <section class="section1">
         <div class="me-text1">
           <img src="hey (1).png" class="hey-image" />
@@ -52,7 +55,8 @@
     </div>
     <div id="contain2" class="container2">
       <div class="homeIconContainer">
-        <a href="#contain1" ><img src="home .png"class="home-icon"/></a></div>
+        <a href="#contain1"><img src="home .png" class="home-icon" /></a>
+      </div>
       <h1 class="about-me-header">About <span>me</span></h1>
       <p class="aboutme-text">
         I am a creative and detail-oriented front end developer with a keen eye for design. I stay updated with the
@@ -101,31 +105,53 @@
     </div>
     <div id="contain3" class="container3">
       <div class="homeIconContainer">
-        <a href="#contain1" ><img src="home .png"class="home-icon"/></a></div>
-      <div class="form-container">
-        <div class="formBox">
-          <h1 class="contact-header">Contact me</h1>
-          <div class="form"></div>
-          <form id="contactForm">
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required />
-
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required />
-
-            <label for="message">Message:</label>
-            <textarea id="message" name="message" rows="4" required></textarea>
-
-            <button type="submit">Send</button>
-          </form>
-        </div>
-        <div class="header-FormInfo"><h1 class="contact-info">Contact information</h1></div>
+        <a href="#contain1"><img src="home .png" class="home-icon" /></a>
       </div>
+      <div class="contact-main-head">
+        <h1>Contact <span>me</span></h1>
+      </div>
+      <div class="container-box">
+        <div class="form-container">
+          <div class="formBox">
+            <h1 class="contact-header">Send me a message</h1>
+            <div class="form"></div>
+            <form id="contactForm">
+              <label for="name">Name:</label>
+              <input type="text" id="name" name="name" required />
 
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" required />
+
+              <label for="message">Message:</label>
+              <textarea id="message" name="message" rows="4" required></textarea>
+
+              <button id="btn-send" type="submit">Send</button>
+            </form>
+          </div>
+          <div class="formInfo-box">
+            <div class="header-FormInfo"><h1 class="contact-info">Contact information</h1></div>
+            <div class="contact-icons-container">
+              <div class="contact-icons">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                  <!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                  <path
+                    fill="#ffffff"
+                    d="M16 64C16 28.7 44.7 0 80 0L304 0c35.3 0 64 28.7 64 64l0 384c0 35.3-28.7 64-64 64L80 512c-35.3 0-64-28.7-64-64L16 64zM144 448c0 8.8 7.2 16 16 16l64 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-64 0c-8.8 0-16 7.2-16 16zM304 64L80 64l0 320 224 0 0-320z" />
+                </svg>
+
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                  <!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                  <path
+                    fill="#ffffff"
+                    d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48L48 64zM0 176L0 384c0 35.3 28.7 64 64 64l384 0c35.3 0 64-28.7 64-64l0-208L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z" />
+                </svg>
+              </div>
+            </div>
+          </div>
+          <div></div>
+        </div>
+      </div>
     </div>
-    <div id="contain4" class="container4">
-
-
-    </div>
+    <div id="contain4" class="container4"></div>
   </body>
 </html>

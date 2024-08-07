@@ -372,27 +372,38 @@ color:rgb(126, 8, 77)
 38726C*/
 /*contact*/
 
+.container-box {
+  width: 100%;
+  display: flex;
+  font-family: "Open Sans", sans-serif;
+  justify-content: center;
+}
+
 .form-container {
   display: flex;
   flex-direction: row;
   height: 430px;
   width: 700px;
-  background-color: #ec407a;
+  background-image: url(https://cdn.pixabay.com/photo/2023/02/08/08/50/frequency-wave-7776034_1280.jpg);
   justify-content: center;
-  align-items: center;
-  margin-left: 30%;
 
-  margin-top: 150px;
   box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
+}
+.formInfo-box{
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+
+
 }
 
 .formBox {
-  width: 400px;
+  width: 500px;
   height: 430px;
 
-  background-color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
   display: flex;
-  justify-content: center;
+
   align-items: center;
   flex-direction: column;
 }
@@ -400,18 +411,80 @@ color:rgb(126, 8, 77)
 #contactForm {
   display: flex;
   flex-direction: column;
+  margin-top: 40px;
+  width: 70%;
+}
+#message {
+  height: 140px;
+}
+
+.contact-main-head {
+  display: flex;
+  justify-content: center;
+  font-family: "Open Sans", sans-serif;
+  align-items: center;
 }
 
 .contact-header {
   padding: 0;
   margin: 0;
-}
-.header-FormInfo {
-  width: 350px;
+  color: #000;
   display: flex;
-  justify-content: center;
   align-items: flex-start;
 }
+.header-FormInfo {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
 .contact-info {
-  font-size: 35px;
+  font-size: 25px;
+}
+
+#btn-send {
+  width: 100px;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-left: 65%;
+}
+
+.contact-icons-container{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 200px;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.contact-icons{
+  height: 400px;
+  width: 200px;
+
+
+ 
+  
+  justify-content: center;
+}
+svg{
+  width: 30px;
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  
+
+}
+
+.contactInfo-fact{
+  display: flex;
+  flex-direction: column;
+}
+
+h3{
+  color: #ffffff;
+  font-size: 16px;
+  padding-right: 20px;
 }
