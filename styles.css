@@ -74,7 +74,7 @@ header {
 }
 
 .container3 {
-  height: 929px;
+  height: 1029px;
   font-family: "Open Sans", sans-serif;
 
   align-items: center;
@@ -84,16 +84,19 @@ header {
 #contain3 {
   align-items: center;
   flex-direction: column;
-  
+}
+
+.btn-about {
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .box {
-  padding-top: 60px;
-  padding-bottom: 100px;
-  padding-left: 150px;
+  padding-top: 30px;
 
-  width: 1500px;
-  height: 500px;
+  padding-left: 150px;
 
   display: flex;
   flex-direction: row;
@@ -341,7 +344,7 @@ span {
   letter-spacing: 2px;
   text-decoration: none;
   text-transform: uppercase;
-  color: #000;
+  color: #b3a6b6;
   cursor: pointer;
   border: 3px solid;
   padding: 0.25em 0.5em;
@@ -382,7 +385,6 @@ color:rgb(126, 8, 77)
 }
 
 .form-container {
-  
   display: flex;
   flex-direction: row;
   height: 430px;
@@ -391,42 +393,33 @@ color:rgb(126, 8, 77)
   justify-content: center;
   align-items: center;
 
-  
-
   box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
 }
-.formBox{
-
-  
+.formBox {
   display: flex;
   flex-direction: column;
-  justify-content:center;
+  justify-content: center;
   align-items: center;
- 
+
   border-color: #ffffff;
-  
+
   margin: 20px;
   height: 270px;
   width: 360px;
-  border-right:3px solid #ffffff ;
-
-
+  border-right: 3px solid #ffffff;
 }
 
-.contact-main-head{
+.contact-main-head {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-  
-.contact-photo{
-  
-  filter: drop-shadow(0 10px 8px rgba(255, 255, 255, 0.056)) drop-shadow(0 5px 8px rgb(255, 255, 255));
-  
 
-border-radius:100%;
+.contact-photo {
+  filter: drop-shadow(0 10px 8px rgba(255, 255, 255, 0.056)) drop-shadow(0 5px 8px rgb(255, 255, 255));
+
+  border-radius: 100%;
 }
-  
 
 .formInfo-box {
   width: 400px;
@@ -436,8 +429,6 @@ border-radius:100%;
   align-items: center;
   justify-content: start;
 }
-
-
 
 #contactForm {
   display: flex;
@@ -449,31 +440,25 @@ border-radius:100%;
   height: 140px;
 }
 
-
-
 .contact-header {
-  
-  
   color: #ffffff;
-display: flex;
-justify-content: center;
-flex-direction: column;
-justify-content: center;
-align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-#contact-head{
+#contact-head {
   font-size: 24px;
 }
 
-.contact-second-head{
+.contact-second-head {
   font-size: 20px;
   color: #ec407a;
 }
 .header-FormInfo {
-
   padding-bottom: 50px;
- 
 
   justify-content: flex-start;
   flex-direction: column;
@@ -489,7 +474,7 @@ align-items: center;
   height: 40px;
   margin-top: 10px;
   margin-left: 65%;
-  background-color:rgb(53, 76, 118);
+  background-color: rgb(53, 76, 118);
   color: #ffffff;
   display: flex;
   justify-content: center;
@@ -497,11 +482,8 @@ align-items: center;
 }
 
 .contact-icons-container {
- 
-  
   width: 100%px;
   height: 200px;
- 
 }
 
 svg {
@@ -510,17 +492,15 @@ svg {
   flex-direction: row;
   padding: 10px;
 }
-.svg-send{
+.svg-send {
   width: 20px;
   display: flex;
   justify-content: right;
   padding-right: 25px;
 }
-.contact-icon{
- display: flex;
- flex-direction: row;
-
-
+.contact-icon {
+  display: flex;
+  flex-direction: row;
 }
 h2 {
   color: #ffffff;
@@ -531,49 +511,57 @@ h3 {
   padding-right: 20px;
 }
 
-.container4{
-  height: 1000px;
+#btn-contact {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.container4, .container5 {
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
   font-family: "Open Sans", sans-serif;
+border-bottom: 10px solid #ec407a;
+  height: 740px;
+  padding-bottom: 10px;
+  
 }
 
-.projects-container{
-  width: 60%;
-  height: 700px;
+.projects-container {
+  height: 600px;
   border-style: groove;
   display: flex;
   justify-content: center;
   align-items: center;
- 
+  margin-bottom: 10px;
+
   display: flex;
- background-image: url(https://cdn.pixabay.com/photo/2023/02/08/08/50/frequency-wave-7776034_1280.jpg);
-object-fit: cover;
+  background-image: url(https://cdn.pixabay.com/photo/2023/02/08/08/50/frequency-wave-7776034_1280.jpg);
+  object-fit: cover;
 }
 
-.project-sect1, .project-sect2, .project-sect3{
+.project-sect1,
+.project-sect2,
+.project-sect3 {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 300px;
+
   padding: 30px;
-  
+
   color: #ffffff;
-
 }
 
-
-.project-picture{
-  width: 200px;
+.project-picture {
+  width: 170px;
   filter: drop-shadow(0 10px 8px rgba(255, 255, 255, 0.077)) drop-shadow(0 5px 8px rgb(255, 255, 255));
-  margin-bottom: 50pxclass="";
-  
+  margin-bottom: 50px;
 }
 
-.project-text{
+.project-text {
   font-size: 15px;
   width: 100px;
   height: 250px;
@@ -585,4 +573,31 @@ object-fit: cover;
   padding: 20px;
   background-color: #000;
   filter: drop-shadow(0 10px 8px rgba(255, 255, 255, 0.077)) drop-shadow(0 5px 8px rgb(255, 255, 255));
+}
+
+.contain4-header {
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.container5{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.cv-main-head{
+width: 500px;
+display: flex;
+justify-content: center;
+}
+
+.cv-head{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+#text{
+  width: 200px;
 }
